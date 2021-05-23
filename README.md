@@ -1,4 +1,5 @@
 # TUGAS 1
+* Coding
 ```
 print("Program Menyewa Buku\n")
 print("Selamat datang dipenyewaan buku KITA, disini kalian bisa menyewa buku bermacam-macam dari komik, novel, biografi dan ilmu pengetahuan, berikut list harga buku\n")
@@ -24,6 +25,12 @@ print("Harga Sewa Sedudah Diskon : ", harga_sewa*diskon/100)
 ```
 
 # TUGAS 2
+* Algoritma
+```
+1 kilometer = 0.62137
+Cara merubah KM ke Mil : Kilometer x 0.62137
+```
+* Coding
 ```
 kilometer = int(input("Masukkan Nilai Dalam Kilometers : "))
 faktor_konversasi = 0.62137
@@ -31,6 +38,14 @@ mil = kilometer * faktor_konversasi
 print(kilometer, "Kilometers sama dengan", mil, "miles")
 ```
 # TUGAS 3
+* Algoritma
+```
+1. Jika angka tahun itu habis dibagi 400, maka tahun itu sudah pasti tahun kabisat.
+2. Jika angka tahun itu tidak habis dibagi 400 tetapi habis dibagi 100, maka tahun itu sudah pasti bukan merupakan tahun kabisat.
+3. Jika angka tahun itu tidak habis dibagi 400, tidak habis dibagi 100 akan tetapi habis dibagi 4, maka tahun itu merupakan tahun kabisat.
+4. Jika angka tahun tidak habis dibagi 400, tidak habis dibagi 100, dan tidak habis dibagi 4, maka tahun tersebut bukan merupakan tahun kabisat.
+```
+* Coding
 ```
 print("===== Program Mecari Tahun Kabisat =====")
 tahun = int(input("Masukkan tahun untuk diperiksa : "))
