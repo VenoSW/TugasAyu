@@ -30,3 +30,16 @@ faktor_konversasi = 0.62137
 mil = kilometer * faktor_konversasi
 print(kilometer, "Kilometers sama dengan", mil, "miles")
 ```
+# TUGAS 3
+```
+print("===== Program Mecari Tahun Kabisat =====")
+tahun = int(input("Masukkan tahun untuk diperiksa : "))
+if tahun % 400 == 0:
+    print("Tahun tersebut adalah tahun kabisat")
+elif tahun % 100 == 0:
+    print("Tahun tersebut adalah bukan tahun kabisat")
+elif tahun % 4 == 0:
+    print("Tahun tersebut adalah tahun kabisat")
+else:
+    print("Tahun tersebut adalah bukan tahun kabisat")
+```
