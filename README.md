@@ -37,7 +37,44 @@ faktor_konversasi = 0.62137
 mil = kilometer * faktor_konversasi
 print(kilometer, "Kilometers sama dengan", mil, "miles")
 ```
-# TUGAS 3
+# PRAKTIKUM PEMROGRAMAN PYTHON
+## NO 1
+* Coding
+```
+nama = "Nur Ayu Anjani Wibowo"
+kelas = "X "
+jurusan = "TKJ A"
+sekolah = "SMK N 1 Cikarang Selatan"
+hobi = "Renang"
+nomor_hp = int("083806755027")
+umur = int("15")
+
+print("Hallo, perkenalkan nama saya", nama, "saya sekarang berada dikelas", kelas, jurusan, "saat ini saya bersekolah di", sekolah, "saya memiliki hobi", hobi, "umur saya sekarang", umur, "tahun, bagi teman-teman yang seumuran dan ingin berteman silahkan kontak nomor hp saya di", nomor_hp)
+```
+## NO 2
+* Coding
+```
+print("Program Volume Balok\n")
+panjang = int(input("Panjang Balok : "))
+lebar = int(input("Lebar Balok : "))
+tinggi = int(input("Tinggi Balok : "))
+volume = panjang*lebar*tinggi
+print("\nJadi Volume Balok tersebut : ", volume)
+```
+## NO 3
+* Coding
+```
+print("Program Habitat Hewan\n")
+habitat = ['laut', 'hutan', 'sungai', 'rawa', 'gurun']
+nama_hewan = ['kodok', 'unta', 'hiu', 'harimau', 'lele']
+print("Hewan", nama_hewan[0], "hidup di", habitat[3])
+print("Hewan", nama_hewan[1], "hidup di", habitat[4])
+print("Hewan", nama_hewan[2], "hidup di", habitat[0])
+print("Hewan", nama_hewan[3], "hidup di", habitat[1])
+print("Hewan", nama_hewan[4], "hidup di", habitat[2])
+```
+# PRAKTIKUM PERCABANGAN DALM PYTHON
+## NO 1
 * Algoritma
 ```
 1. Jika angka tahun itu habis dibagi 400, maka tahun itu sudah pasti tahun kabisat.
@@ -57,4 +94,32 @@ elif tahun % 4 == 0:
     print("Tahun tersebut adalah tahun kabisat")
 else:
     print("Tahun tersebut adalah bukan tahun kabisat")
+```
+## NO 2
+* Coding
+```
+print("======= PROGRAM PREDIKAT NILAI RAPORT =======\n")
+nilai = eval(input("Masukkan Nilai Raport : "))
+if nilai >= 90:
+    print("Predikat A")
+elif nilai >= 80:
+    print("Predikat B")
+else:
+    print("Predikat C")
+```
+## NO 3
+* Coding
+```
+print("===== SELAMAT DATANG DI PROGRAM SELEKSI SNMPTN =====\n")
+pilihan = input("Apakah anda ingin melanjutkan kuliah ?\n Y/y untuk Yes | N/n nutuk No\n")
+if (pilihan == "y" or pilihan == "Y"):
+    usia         = int(input("Masukkan usia Anda sekarang  : "))
+    nilai_raport = int(input("Masukkan nilai Raport        : "))
+    nilai_un     = int(input("Masukkan nilai UN            : "))
+    if (usia >= 17 and usia <=20 and nilai_raport >= 85 and nilai_un >= 75):
+        print("Selamat Anda memenuhi persyaratan untuk mengikuti SNMPTN!")
+    else:
+        print("Mohon maaf Anda tidak bisa mengikuti SNMPTN!")
+else:
+    print("Terimakasih sudah menggunakan Program Seleksi SNMPTN")
 ```
